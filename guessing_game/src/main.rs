@@ -17,7 +17,7 @@ fn main() {
     let guess: u32 = guess.trim().parse()
         .expect("failed to read line.");
 
-    print!("You guessed: {}",guess );
+    println!("You guessed: {}", guess);
 
     match guess.cmp(&secret_number) {
         Ordering::Less     => println!("Too small!" ),

@@ -1,0 +1,6 @@
+[package]
+name = "nim"
+version = "0.1.0"
+authors = ["Shawn Mitchell <smmitchell3@gmail.com>"]
+
+[dependencies]
