@@ -9,6 +9,16 @@ fn menu(){
         println!("last stick." );
 }
 
+fn() -> i32{
+    println!("How many sticks should there be?" );
+    let mut stickNumber = String::new();
+    io::stdin().read_line(&mut stickNumber).unwrap();
+
+    return stickNumber;
+}
+
 fn main() {
     menu();
+    let mut stickNumber =
+
 }
